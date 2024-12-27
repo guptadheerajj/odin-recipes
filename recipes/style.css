@@ -1,0 +1,23 @@
+.heading {
+	font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+	text-decoration: underline;
+}
+
+.title {
+	text-align: center;
+}
+
+.ingredients,
+.description,
+.steps {
+	color: purple;
+}
+
+.text {
+	font-family: "Trebuchet MS";
+	font-size: 1.1rem;
+}
+
+.description-para {
+	font-weight: 700;
+}
