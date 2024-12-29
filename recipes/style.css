@@ -1,6 +1,31 @@
+html {
+	box-sizing: border-box;
+}
+
+*,
+*::after,
+*::before {
+	margin: 0;
+	padding: 0;
+	box-sizing: inherit;
+}
+
+body {
+	background-color: #111827;
+	color: #d1d5db;
+}
+
 .heading {
 	font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 	text-decoration: underline;
+}
+
+.container-body {
+	width: 60vw;
+	margin: 2em auto;
+	background-color: #1f2937;
+	border-radius: 1em;
+	padding: 2em;
 }
 
 .title {
@@ -20,4 +45,9 @@
 
 .description-para {
 	font-weight: 700;
+}
+
+ul, 
+ol {
+	list-style-position: inside;
 }
