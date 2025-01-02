@@ -20,6 +20,10 @@ body {
 	text-decoration: underline;
 }
 
+.title {
+	text-align: center;
+}
+
 .container-body {
 	width: 60vw;
 	margin: 2em auto;
@@ -28,8 +32,16 @@ body {
 	padding: 2em;
 }
 
-.title {
-	text-align: center;
+.image-container {
+	width: 250px;
+	height: 250px;
+	margin: auto;
+	border-radius: 0.5em;
+	overflow: hidden;
+}
+
+.line-container {
+	display: flex;
 }
 
 .ingredients,
